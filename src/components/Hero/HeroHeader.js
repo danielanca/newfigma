@@ -1,6 +1,6 @@
 import classes from "../Hero/HeroHeader.module.css";
 import hero_header_pic from "../../media/hero_header_right.png";
-import bottom_wave from "../../media/bottom_wave.svg";
+import bottom_wave from "../../media/bottom_wave.png";
 import Button from "../Button/Button";
 const HeroHeader = () => {
 	return (

@@ -1,3 +1,9 @@
+.cardLarge {
+	height: 401px;
+}
+.cardSmall {
+	height: 200px;
+}
 .cardBoardComponent {
 	height: 401px;
 	background-color: whitesmoke;

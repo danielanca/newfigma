@@ -1,0 +1,8 @@
+.smallLine {
+	height: 8px;
+	width: 57px;
+	background-color: #fd749b;
+
+	margin-bottom: 20px;
+	border-radius: 5px;
+}

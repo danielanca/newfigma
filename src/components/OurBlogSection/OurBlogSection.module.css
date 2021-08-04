@@ -1,0 +1,19 @@
+.blogBackground {
+	background-color: whitesmoke;
+	width: 100%;
+	height: 500px;
+}
+
+.textDesc {
+	text-align: center;
+	font-size: 21px;
+	color: black;
+}
+/* .smallLine {
+	height: 8px;
+	width: 57px;
+	background-color: #fd749b;
+
+	margin-bottom: 20px;
+	border-radius: 5px;
+} */

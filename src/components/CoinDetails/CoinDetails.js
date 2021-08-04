@@ -1,5 +1,5 @@
 import classes from "../CoinDetails/CoinDetails.module.css";
-import sinGradient from "../../media/bottom_wave.svg";
+import sinGradient from "../../media/bottom_wave.png";
 import { Fragment } from "react";
 import CardBoard from "../CardBoard/CardBoard";
 const CoinDetails = () => {
@@ -11,7 +11,7 @@ const CoinDetails = () => {
 					src={sinGradient}
 				></img>
 
-				<CardBoard />
+				<CardBoard customCardDimension="small" />
 				<img
 					className={classes.gradientRotateBottom}
 					src={sinGradient}

@@ -2,7 +2,19 @@ import classes from "../CardBoard/CardBoard.module.css";
 import CoinData from "../CoinData/CoinData";
 import InformationalCardBoard from "./InformationalCardBoard/InformationalCardBoard";
 import OurReserves from "./OurReserves";
-const CardBoard = () => {
+const CardBoard = (props) => {
+	let customCard = props.customCardDimension;
+	let customDimension = " ";
+
+	switch (customCard) {
+		case "small":
+			customDimension = classes.cardSmall;
+			break;
+		case "large":
+			customDimension = classes.cardLarge;
+			break;
+	}
+
 	return (
 		<div className={classes.cardBoardComponent}>
 			<div className="row">
