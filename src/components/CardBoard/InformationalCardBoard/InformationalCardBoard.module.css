@@ -1,0 +1,14 @@
+.infoCard {
+	height: 40px;
+	width: 120px;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+	border-radius: 5px;
+}
+.textInfo {
+	color: white;
+	font-family: "Poppins";
+	font-size: small;
+	font-weight: bolder;
+	text-align: center;
+	margin: 9px;
+}

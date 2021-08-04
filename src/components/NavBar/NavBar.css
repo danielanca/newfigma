@@ -1,0 +1,88 @@
+.logoWrapper {
+	margin: auto;
+
+	margin-left: 19%;
+	margin-top: 32px;
+}
+.navC {
+	border: 4px solid blue;
+	width: 100%;
+	height: 128px;
+}
+
+.logostyle {
+	border: 4px solid green;
+	width: 30%;
+	height: 100%;
+}
+.itemWrapper {
+	border: 4px solid red;
+	width: 70%;
+	height: 100%;
+}
+.nav_link {
+	color: white;
+	line-height: 35px;
+}
+.cardcss {
+	position: absolute;
+	z-index: 1;
+	height: 70px;
+	width: 95%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
+	border-radius: 20px;
+	top: 0px;
+}
+
+.centered {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	/* padding: 10px; */
+}
+
+.logo-front {
+	top: 5.2vh;
+	height: 1.3vw;
+	position: absolute;
+}
+
+.navbar-container {
+	height: 100px;
+	width: 100%;
+
+	position: absolute;
+	z-index: 1;
+	padding: auto;
+	background-color: black;
+}
+
+.navbar-brand {
+	display: inline-block;
+	padding-bottom: 0.3125rem;
+	margin-right: 0rem;
+	margin-left: 10rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav {
+	flex-direction: row;
+	width: 45vw;
+}
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 3.5rem;
+		padding-left: 2.5rem;
+	}
+}
+.navbar {
+	justify-content: flex-start;
+}

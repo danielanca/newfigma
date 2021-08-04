@@ -1,0 +1,36 @@
+.item {
+	width: 150px;
+	height: 60px;
+	border: 3px solid red;
+}
+
+.orange_back {
+	font-weight: bolder;
+	background: #ffac12;
+	border-radius: 0px 18px 0px 0px;
+	line-height: 35px;
+}
+.text-white {
+	color: white;
+}
+.text-black {
+	color: black;
+}
+.textAlignma {
+	line-height: 51px;
+	color: black;
+	font-weight: 800;
+	text-decoration: none;
+	font-family: "Poppins";
+}
+
+.navbar-expand-lg .navbar-nav {
+	flex-direction: row;
+	width: 45vw;
+}
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 3.5rem;
+		padding-left: 2.5rem;
+	}
+}

@@ -1,0 +1,36 @@
+.containerBackground {
+	background-color: white;
+	width: 100%;
+	height: 550px;
+}
+
+.descriptionWrapper {
+	text-align: center;
+	border: 3px solid red;
+	width: 616px;
+	height: 270px;
+}
+
+.lineDesign {
+	height: 5px;
+	width: 78px;
+	background-color: #fd749b;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.textGradient {
+	font-size: 36px;
+	background: -webkit-linear-gradient(#d900f3, #f33800);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 600;
+}
+.textWrapper {
+	font-weight: 500;
+	/* letter-spacing: 8px; */
+	text-align: center;
+	vertical-align: middle;
+	line-height: 39px;
+	margin-top: 35px;
+}

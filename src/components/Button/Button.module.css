@@ -1,0 +1,31 @@
+.buttonShapeLight {
+	border-radius: 100px;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	width: 170px;
+	height: 47px;
+	color: rgb(106, 0, 255);
+	color: linear-gradient(
+		3deg,
+		rgba(106, 0, 255, 1) 0%,
+		rgba(255, 0, 254, 1) 100%
+	);
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+
+.buttonShapeColored {
+	border-radius: 100px;
+	background: rgb(106, 0, 255);
+	background: linear-gradient(3deg, #281ac8 0%, #fd749b 50%);
+	outline: none;
+	width: 165px;
+	height: 50px;
+	border: none;
+	color: white;
+	font-size: larger;
+	font-weight: bolder;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}

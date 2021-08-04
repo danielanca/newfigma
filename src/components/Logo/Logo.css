@@ -1,0 +1,16 @@
+.logo-wrapper {
+    height: 3vw;
+    border: 3px solid green;
+    width: 12vw;
+    margin: auto;
+ 
+}
+
+.logo-icon{
+    height: 2.4vw;
+    width: auto;
+}
+
+.logo-front{
+    /* margin: 0.6vw; */
+}

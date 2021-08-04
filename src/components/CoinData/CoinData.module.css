@@ -1,0 +1,14 @@
+.coinContainer {
+}
+.coinIcon {
+	width: 73px;
+}
+.coinText {
+	text-decoration: none;
+	color: black;
+}
+.customSpacingCoin {
+	margin-right: 13px;
+	margin-left: 45px;
+	margin-top: 29px;
+}
