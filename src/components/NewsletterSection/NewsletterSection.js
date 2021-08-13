@@ -15,8 +15,8 @@ const NewsletterSection = () => {
 			<div className={classes.inputSubmitWrapper}>
 				<div className={classes.inputWrapper}>
 					<input
-						className={" "}
-						type="text"
+						className={classes.inputNewsletter}
+						type="textcolored"
 						placeholder="EMAIL"
 					></input>{" "}
 				</div>

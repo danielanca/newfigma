@@ -1,11 +1,12 @@
 .newsLetterBackground {
 	height: 490px;
+	margin-top: 100px;
 	background-color: #ffffff;
 }
 .NLwrapper {
 	margin-top: 100px;
 }
-input[type="text"] {
+input[type="textcolored"] {
 	border-radius: 20px;
 	border: 1px solid #cf0eff;
 	color: #a0d18c;
@@ -14,7 +15,7 @@ input[type="text"] {
 	padding-left: 35px;
 }
 
-input[type="text"]:focus {
+input[type="textcolored"]:focus {
 	outline: none;
 	border: 1px solid #a0d18c;
 	color: #2d9fd9;
@@ -28,4 +29,7 @@ input[type="text"]:focus {
 .buttonWrapper {
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.inputNewsletter {
+	border-radius: 30px;
 }
