@@ -1,0 +1,31 @@
+.newsLetterBackground {
+	height: 490px;
+	background-color: #ffffff;
+}
+.NLwrapper {
+	margin-top: 100px;
+}
+input[type="text"] {
+	border-radius: 20px;
+	border: 1px solid #cf0eff;
+	color: #a0d18c;
+	width: 356px;
+	height: 49.5px;
+	padding-left: 35px;
+}
+
+input[type="text"]:focus {
+	outline: none;
+	border: 1px solid #a0d18c;
+	color: #2d9fd9;
+}
+
+.inputSubmitWrapper {
+	left: 33%;
+	position: absolute;
+	display: flex;
+}
+.buttonWrapper {
+	margin-left: 20px;
+	margin-right: 20px;
+}

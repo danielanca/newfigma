@@ -1,0 +1,66 @@
+.backgroundBackdrop {
+	background-color: white;
+	opacity: 0.9;
+	width: 500px;
+	height: auto;
+	padding-bottom: 42px;
+	top: 100px;
+	left: 200px;
+	position: absolute;
+	border-radius: 30px;
+}
+.back {
+	background-color: black;
+	height: 2000px;
+	width: 100vw;
+}
+.messageHead {
+	font-size: larger;
+	color: #da47ff;
+	width: 39%;
+	font-weight: 700;
+	font-size: 1.6rem;
+	margin: 7% 32%;
+}
+.textDesc {
+	text-align: center;
+	font-weight: 300;
+}
+.inputWrapperAuth {
+	width: 60%;
+
+	margin: auto;
+}
+.inputEmail {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.inputPassword {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.forgotPassText {
+	text-align: end;
+}
+.forgotPassText:hover {
+	cursor: pointer;
+	font-weight: 500;
+}
+.buttonMiddle {
+	margin: 0px 20%;
+}
+.signUpParagraph {
+	text-align: center;
+	margin-top: 25px;
+}

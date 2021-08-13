@@ -1,0 +1,74 @@
+.backgroundDownload {
+	background: radial-gradient(
+		100% 100% at 46.86% 0%,
+		#ca07a0 0%,
+		#870cec 100%
+	);
+	height: 745px;
+	width: 100%;
+	position: relative;
+}
+.testimonialHeaderTextWrapper {
+	width: 384px;
+	height: auto;
+}
+.testimonialTitle {
+	color: #b329c1;
+	left: 4px;
+	text-align: center;
+	z-index: 4;
+	position: absolute;
+	top: -97px;
+}
+.testimonialHeaderTextWrapper {
+	width: 384px;
+	height: auto;
+}
+.testimonialFullText {
+	text-align: center;
+	width: 423px;
+	font-size: large;
+	font-weight: 600;
+	line-height: 40px;
+}
+.TestimonialLine {
+	height: 9px;
+	position: absolute;
+	width: 95px;
+	z-index: 5;
+	border-radius: 20px;
+	top: -2%;
+
+	left: 47%;
+	background: radial-gradient(
+		100% 100% at 46.86% 0%,
+		#d10cd1 0%,
+		#940881 100%
+	);
+}
+.testimonialTextContainer {
+	height: 207px;
+	width: 400px;
+	position: absolute;
+	left: 37.5%;
+
+	color: #262323;
+	top: 1%;
+	z-index: 5;
+}
+.waveTop {
+	height: 260px;
+	width: auto;
+	position: absolute;
+	z-index: 0;
+	left: -378px;
+	top: -23px;
+
+	transform: rotate(180deg);
+}
+.iPhoneFace {
+	width: 352px;
+	position: absolute;
+	left: 25%;
+	margin-top: 288px;
+}

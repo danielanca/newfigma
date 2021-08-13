@@ -1,8 +1,8 @@
 import classes from "../Hero/HeroHeader.module.css";
-import hero_header_pic from "../../media/hero_header_right.png";
+
 import bottom_wave from "../../media/bottom_wave.png";
 import Button from "../Button/Button";
-const HeroHeader = () => {
+const HeroHeader = (props) => {
 	return (
 		<div className={"container-fluid " + classes.header_hero}>
 			<div className="row ">
@@ -17,8 +17,7 @@ const HeroHeader = () => {
 									classes.header_text_first
 								}
 							>
-								We provide easy solution to exchange your
-								Bitcoin/ GiftCard for money
+								{props.headerTitle}
 							</div>
 						</div>
 
@@ -31,9 +30,7 @@ const HeroHeader = () => {
 									classes.header_text_description
 								}
 							>
-								CoinBase is a platform for trading your bitcoin
-								and giftcard at the best rate, why not give us a
-								trial.
+								{props.headerDescription}
 							</div>
 						</div>
 						<div className="row">
@@ -49,7 +46,7 @@ const HeroHeader = () => {
 				<div className={"col-sm-6 " + classes.bordercolor}>
 					<img
 						className={classes.right_hero}
-						src={hero_header_pic}
+						src={props.imageSrc}
 					></img>
 				</div>
 			</div>

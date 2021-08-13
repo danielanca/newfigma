@@ -1,0 +1,69 @@
+.header_hero {
+	width: 100%;
+	height: 800px;
+	background: rgb(106, 0, 255);
+	background: linear-gradient(
+		3deg,
+		rgba(106, 0, 255, 1) 0%,
+		rgba(255, 0, 254, 1) 100%
+	);
+	background: var(--background_image);
+	position: relative;
+}
+.titleHeaderMiddle {
+}
+.left-hero {
+	border: cyan 3px solid;
+	font-family: "Poppins";
+	font-weight: 700;
+}
+
+.right_hero {
+	border: chartreuse 3px solid;
+	height: 469px;
+	width: auto;
+	margin-top: 63px;
+	margin-left: 65px;
+}
+.bordercolor {
+	border: 2px solid red;
+}
+
+.header_text_first {
+	font-size: larger;
+	color: white;
+	font-size: 2.2rem;
+	width: 80%;
+	margin-left: 100px;
+	font-weight: 700;
+	margin-top: 122px;
+}
+.header_text_description {
+	color: white;
+	font-size: 1.1rem;
+	width: 79%;
+	font-weight: 400;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+.buttonAlign {
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.heroWrapper {
+	margin-left: 40px;
+}
+.sinWaveBottom {
+	width: 137%;
+	margin-left: -45px;
+	bottom: -25px;
+	position: absolute;
+}
+.centerTitle {
+	color: white;
+	position: absolute;
+	left: 20%;
+	width: 60%;
+	text-align: center;
+	top: 32%;
+}

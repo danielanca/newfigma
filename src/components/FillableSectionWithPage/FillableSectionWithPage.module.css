@@ -1,0 +1,36 @@
+.PageContainer {
+	height: 115px;
+	width: 511px;
+	margin: 20px auto;
+	border: 3px solid green;
+}
+.pageItem {
+	margin-left: 11px;
+	margin-right: 9px;
+	width: 62px;
+	height: 62px;
+	color: white;
+	border-radius: 50px;
+	/* border: 2px solid rgb(255, 11, 161); */
+}
+.Active {
+	background: rgb(253, 116, 155);
+	background: linear-gradient(
+		180deg,
+		rgba(253, 116, 155, 1) 0%,
+		rgba(40, 26, 200, 1) 100%
+	);
+}
+.Inactive {
+	background: linear-gradient(
+		180deg,
+		rgb(236, 234, 235) 0%,
+		rgb(255, 255, 255) 100%
+	);
+	color: black;
+}
+.numberItem {
+	margin: 20px;
+	padding-left: 5px;
+	font-weight: 600;
+}

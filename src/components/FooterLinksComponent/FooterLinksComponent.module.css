@@ -1,0 +1,15 @@
+.LinksFooter {
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+.linkItem {
+	color: #979494;
+}
+.LinksFooterTitle {
+	font-size: 1.6rem;
+}
+.titleLinkWrapper {
+	margin-top: 95px;
+	margin-bottom: 36px;
+}

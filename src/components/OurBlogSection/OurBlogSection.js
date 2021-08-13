@@ -1,6 +1,9 @@
 import classes from "./OurBlogSection.module.css";
 import HeaderText from "../TextCustom/HeaderText";
+import ArticleCardBoard from "../CardBoard/ArticleCardBoard";
 import lineCS from "../common/headerLine.module.css";
+import CarouselGallery from "../CarouselGallery/CarouselGallery";
+
 const OurBlogSection = () => {
 	return (
 		<div className={classes.blogBackground + " mt-5 container-fluid "}>
@@ -14,6 +17,24 @@ const OurBlogSection = () => {
 				<span className={"mx-auto mt-2 " + classes.textDesc}>
 					Get to know the latest stuff via our blog post.
 				</span>
+			</div>
+			<div className="row">
+				<div className="col-sm-12">
+					<CarouselGallery>
+						<ArticleCardBoard
+							orderNo="middle"
+							articleTextHeader="Heavenly Day"
+						/>
+						<ArticleCardBoard
+							orderNo="left"
+							articleTextHeader="Whisper to us"
+						/>
+						<ArticleCardBoard
+							orderNo="right"
+							articleTextHeader="Get lost again"
+						/>
+					</CarouselGallery>
+				</div>
 			</div>
 		</div>
 	);

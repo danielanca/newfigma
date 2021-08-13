@@ -1,0 +1,29 @@
+.hugeCardBoard {
+	width: 950px;
+	height: 740px;
+	border: hotpink solid 3px;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+.thumbnailArticle {
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+}
+.textHeaderHuge {
+	text-align: center;
+	margin-top: 47px;
+	color: #991dd3;
+	font-weight: 700;
+}
+.ArticleParagraph {
+	text-align: center;
+	margin-top: 20px;
+}
+.fullTextHugeArticle {
+	width: 690px;
+	margin: auto;
+}
+.buttonArticle {
+	margin: auto;
+	width: 112px;
+}

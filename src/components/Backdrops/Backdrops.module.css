@@ -1,0 +1,156 @@
+.backgroundBackdrop {
+	background-color: white;
+	opacity: 0.9;
+	width: 500px;
+	height: auto;
+	padding-bottom: 42px;
+	top: 100px;
+	left: 200px;
+	position: absolute;
+	border-radius: 30px;
+}
+.GiftCardInfo {
+	width: 880px;
+}
+.back {
+	background-color: black;
+	height: 2000px;
+	width: 100vw;
+}
+.messageHead {
+	font-size: larger;
+	color: #da47ff;
+	width: 39%;
+	font-weight: 700;
+	font-size: 1.6rem;
+	margin: 7% 32%;
+	text-align: center;
+}
+.textDesc {
+	text-align: center;
+	font-weight: 300;
+}
+.inputWrapperAuth {
+	width: 60%;
+
+	margin: auto;
+}
+.inputEmail {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.inputPassword {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.forgotPassText {
+	text-align: end;
+}
+.forgotPassText:hover {
+	cursor: pointer;
+	font-weight: 500;
+}
+.buttonMiddle {
+	margin: 10px 20%;
+}
+.signUpParagraph {
+	text-align: center;
+	margin-top: 25px;
+}
+.loginAdvice {
+	font-weight: bolder;
+	cursor: pointer;
+}
+.cardsGrid {
+	height: 100%;
+	padding: 0px 6%;
+	width: 100%;
+}
+.cardboardSize {
+	width: 210px;
+	margin: 20px;
+}
+
+.coinCardsAlign {
+	height: 100%;
+	padding: 0px 6%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.cardsGridCoin {
+	margin: 27px;
+}
+.cardBoardSizeCoins {
+	width: 283px;
+	margin: 14px;
+}
+.ellipse_c {
+	margin: 0px 22.5%;
+}
+.cryptoCoinMiddle {
+	margin: 20% 96px 0px;
+}
+.backEllipse {
+	position: absolute;
+	z-index: -1;
+}
+.textInner {
+	margin-top: 33px;
+	text-align: center;
+}
+.quantitybold {
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+}
+
+.fineLine {
+	height: 3px;
+	border-radius: 20px;
+	opacity: 0.3;
+	background-color: gray;
+}
+.descriptionProceed {
+	color: gray;
+	margin-top: 18px;
+	text-align: center;
+}
+.inputWrapperCoin {
+	width: 40%;
+	margin: 34px auto;
+}
+.buttonCentered {
+	margin: 12px 27%;
+}
+.outputSumWrapper {
+	height: 100px;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+.outputDotted {
+	border: 4px dotted red;
+	height: 78px;
+	width: 70%;
+	margin: auto;
+	border-radius: 7px;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+.outSum {
+	font-weight: 400;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 15px;
+}

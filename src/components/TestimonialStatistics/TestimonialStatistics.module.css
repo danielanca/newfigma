@@ -1,0 +1,91 @@
+.backgroundTestimonial {
+	background: radial-gradient(
+		100% 100% at 46.86% 0%,
+		#ca07a0 0%,
+		#870cec 100%
+	);
+	height: 1214px;
+	width: 100%;
+}
+.TestimonialLine {
+	height: 9px;
+	width: 95px;
+	margin: 30px;
+	background: radial-gradient(
+		100% 100% at 46.86% 0%,
+		#d10cd1 0%,
+		#940881 100%
+	);
+}
+.testimonialTextContainer {
+	height: 207px;
+	width: 400px;
+	color: white;
+}
+.testimonialTitle {
+	color: white;
+	margin-top: 271px;
+	text-align: center;
+}
+.testimonialHeaderTextWrapper {
+	width: 384px;
+	height: auto;
+}
+.testimonialFullText {
+	text-align: center;
+	width: 423px;
+	font-size: large;
+	font-weight: 600;
+}
+
+.messageCardboard {
+	height: 162px;
+	width: 438px;
+	opacity: 0.8;
+	background-color: #d2d2d2;
+	border-radius: 20px;
+	position: absolute;
+	right: 270px;
+	margin-top: 84px;
+}
+.messageCardboard_arrow {
+	height: 60px;
+	width: 103px;
+	transform: rotate(230deg);
+	opacity: 4.7;
+	background-color: lightgrey;
+	position: absolute;
+	right: 370px;
+	z-index: -1;
+	margin-top: 54px;
+}
+.contentWrapper {
+	padding: 44px;
+}
+.messageAuthorName {
+	font-size: 1.2rem;
+}
+.logoOnEdge {
+	position: absolute;
+	right: 21px;
+	top: 16px;
+}
+.waveTop {
+	height: 260px;
+	width: auto;
+	position: absolute;
+	z-index: 0;
+	left: -475px;
+
+	margin-top: -69px;
+	transform: rotate(180deg);
+}
+.waveBottom {
+	height: 260px;
+	width: auto;
+	position: absolute;
+	z-index: 0;
+	left: -475px;
+	margin-top: 88px;
+	transform: rotate(360deg);
+}

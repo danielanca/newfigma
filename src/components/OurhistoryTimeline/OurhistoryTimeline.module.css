@@ -1,0 +1,81 @@
+.timelineBackground {
+	height: 1000px;
+	width: 100%;
+	margin-top: 36px;
+}
+.verticalTimeline {
+	height: 800px;
+	width: 11px;
+	background-color: rgb(241, 0, 141);
+	position: absolute;
+	left: 51%;
+	margin-top: 7%;
+	border-radius: 20px;
+}
+.colorLine {
+	width: 80px;
+	height: 8px;
+	background-color: rgb(241, 0, 141);
+	border-radius: 20px;
+}
+.titleTimeline {
+	position: absolute;
+	left: 52%;
+	margin-top: 7px;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #ff00ac;
+	width: 156px;
+	border: red 3px solid;
+}
+
+.textTimeline {
+	position: absolute;
+	text-align: right;
+
+	margin-top: 74px;
+	font-weight: 500;
+	border: red 3px solid;
+}
+.itemTimelineWrapper {
+	position: absolute;
+	border: green 3px solid;
+	left: 339px;
+	margin-top: 127px;
+	height: 217px;
+	width: 390px;
+}
+
+.itemTimelineWrapperSecond {
+	position: absolute;
+	border: green 3px solid;
+	right: 301px;
+	margin-top: 421px;
+	height: 217px;
+	width: 390px;
+}
+.itemTimelineWrapperThird {
+	position: absolute;
+	border: green 3px solid;
+	left: 339px;
+	margin-top: 681px;
+	height: 217px;
+	width: 390px;
+}
+.pointCoords1 {
+	margin-top: 240px;
+}
+.pointCoords2 {
+	margin-top: 529px;
+}
+.pointCoords3 {
+	margin-top: 780px;
+}
+.timeLinePoint {
+	width: 42px;
+	height: 11px;
+	background-color: rgb(241, 0, 141);
+	border-radius: 20px;
+	position: absolute;
+	left: 50%;
+}

@@ -35,10 +35,10 @@
 	margin-top: 122px;
 }
 .header_text_description {
-	font-size: larger;
 	color: white;
-	font-size: 2rem;
-	width: 65%;
+	font-size: 1.1rem;
+	width: 79%;
+	font-weight: 400;
 	margin-left: 100px;
 }
 .buttonAlign {

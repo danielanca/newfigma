@@ -1,7 +1,6 @@
 import classes from "../MidleCardBoard_Section/MiddleCardSection.module.css";
 import sinWaveBottom from "../../media/bottom_wave.png";
 
-import CardBoard from "../CardBoard/CardBoard";
 import CardBoardComponent from "../CardBoard/CardBoardComponent";
 
 const MiddleCardSection = () => {
@@ -13,10 +12,11 @@ const MiddleCardSection = () => {
 				className={classes.MiddleCardwavePosition}
 				src={sinWaveBottom}
 			></img>
+
 			<div className="row">
-				<div className="col-sm-12">
+				<div className="col-sm-12 mx-auto  ">
 					<CardBoardComponent
-						customBootstrap=" mx-auto  "
+						customBootstrap="  "
 						cardBoardSize="large"
 					/>
 					<div className="row  ">

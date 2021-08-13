@@ -1,0 +1,30 @@
+input[type="text"],
+select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.inputWrapper {
+	width: 62%;
+	margin: 65px auto;
+}
+.buttonWrapper {
+	margin-left: 20%;
+}
+.spanText {
+	width: 530px;
+}
+.contactFormSection {
+	margin-bottom: 30px;
+}
+.titleHeaderWrapper {
+	left: 20%;
+}
+.centerText {
+	margin: 0px 20%;
+}
