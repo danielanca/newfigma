@@ -2,8 +2,14 @@ import Button from "../Button/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import NavLink_Custom from "./NavLink_Custom";
+import BackDropBackground from "../Backdrops/BackDropBackground";
+import GiftCardBoard from "../Backdrops/GiftCardBoard";
 
-const NavLink_Items = () => {
+const NavLink_Items = (props) => {
+	const LinkerDirect = (event) => {
+		props.itemAccesed(event);
+	};
+
 	return (
 		<ul className="navbar my-auto " style={{ listStyleType: "none" }}>
 			<NavLink_Custom
@@ -28,10 +34,15 @@ const NavLink_Items = () => {
 			/>
 			<NavLink_Custom
 				text="Sell Bitcoin/Giftcard"
-				link="https://nomorecoffeeplease.com"
+				linkClicked={LinkerDirect}
 			/>
 
-			<Button customStyle="mt-1" text={"Login"} backgroundCol="color" />
+			<Button
+				linkClicked={LinkerDirect}
+				customStyle="mt-1"
+				text={"Login"}
+				backgroundCol="color"
+			/>
 		</ul>
 	);
 };

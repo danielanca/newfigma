@@ -12,11 +12,7 @@
 .GiftCardInfo {
 	width: 880px;
 }
-.back {
-	background-color: black;
-	height: 2000px;
-	width: 100vw;
-}
+
 .messageHead {
 	font-size: larger;
 	color: #da47ff;
