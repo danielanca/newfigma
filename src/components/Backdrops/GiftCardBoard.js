@@ -2,6 +2,9 @@ import classes from "./Backdrops.module.css";
 import Button from "../Button/Button";
 import CardsImporter from "./CardsImporter";
 const GiftCardBoard = () => {
+	const CardGiftClickHandler = (card_number) => {
+		console.log("Card selected:" + card_number);
+	};
 	return (
 		<div
 			className={classes.backgroundBackdrop + " " + classes.GiftCardInfo}
@@ -15,7 +18,12 @@ const GiftCardBoard = () => {
 			</div>
 			<div className={classes.cardsGrid}>
 				{CardsImporter.map((cards) => (
-					<a href={cards.link}>
+					<a
+						onClick={CardGiftClickHandler.bind(
+							this,
+							cards.cardName
+						)}
+					>
 						<img
 							className={classes.cardboardSize}
 							src={cards.image.default}
