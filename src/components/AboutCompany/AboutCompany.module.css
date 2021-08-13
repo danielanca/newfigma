@@ -5,8 +5,25 @@
 }
 .cardBoardAbout {
 	width: 64%;
-
-	border: 3px solid red;
+	border-radius: 20px;
+	border: 2px solid #d90aff;
+	padding: 66px;
 }
-.cardBoardAboutComponent {
+
+.welcomeHeroImg {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 4%;
+}
+.paraText {
+}
+.paragraphParent {
+	width: 462px;
+	text-align: center;
+	margin: auto;
+	font-weight: 400;
+}
+.honorIcons {
+	margin-left: 36%;
+	width: 26.7%;
 }

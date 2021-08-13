@@ -16,13 +16,16 @@
 .mainThumbnail {
 	margin-left: -34px;
 	margin-right: -34px;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 .secondaryThumbnail {
 	height: 229px;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 .thirdThumbnail {
 	height: 192px;
 	margin-left: -34px;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 	margin-right: -34px;
 }
 .mainWrapper {

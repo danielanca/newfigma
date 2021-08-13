@@ -4,9 +4,7 @@ const OurhistoryTimeline = () => {
 	return (
 		<div className={"container-fluid " + classes.timelineBackground}>
 			<div className={"row "}>
-				<h2 style={{ textAlign: "center" }} className={"mx-auto "}>
-					Our History
-				</h2>
+				<h2 className={classes.middleHistoryTitle}>Our History</h2>
 				<div className={"mx-auto " + classes.colorLine}></div>
 			</div>
 			<div className={classes.verticalTimeline}></div>

@@ -1,9 +1,7 @@
 import classes from "./BackDropBackground.module.css";
 
-
 const BackDropBackground = () => {
-
-    return();
-}
+	return <div className={classes.BackdropFull}></div>;
+};
 
 export default BackDropBackground;

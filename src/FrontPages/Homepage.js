@@ -11,10 +11,12 @@ import DownloadSection from "../components/DownloadSection/DownloadSection";
 import NewsletterSection from "../components/NewsletterSection/NewsletterSection";
 import FooterSection from "../components/Footer/FooterSection";
 import landingHeader from "../media/lading_page/hero_header_right.png";
+import BackDropBackground from "../components/Backdrops/BackDropBackground";
 
 const Homepage = () => {
 	return (
 		<Fragment>
+			<BackDropBackground />
 			<NavBar />
 			<HeroHeader
 				imageSrc={landingHeader}

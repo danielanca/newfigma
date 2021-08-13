@@ -14,20 +14,19 @@ const HeaderTextInfo = (props) => {
 	}
 	return (
 		<Fragment>
-			<div
-				className={
-					"row mx-auto " + classes.testimonialHeaderTextWrapper
-				}
-			>
-				<span className={classes.testimonialTitle + " " + customStyle}>
+			<div className={classes.testimonialHeaderTextWrapper}>
+				<p className={classes.testimonialTitle + " " + customStyle}>
 					{title}
-				</span>
-			</div>
-			<div className={"row "}>
-				<div className={"mx-auto " + classes.TestimonialLine}></div>
-			</div>
-			<div className={"row mx-auto " + classes.testimonialTextContainer}>
-				<span className={classes.testimonialFullText}>{textFull}</span>
+				</p>
+
+				<div className={classes.lineMiddle}>
+					<div className={"" + classes.TestimonialLine}></div>
+				</div>
+				<div className={"" + classes.testimonialTextContainer}>
+					<span className={classes.testimonialFullText}>
+						{textFull}
+					</span>
+				</div>
 			</div>
 		</Fragment>
 	);

@@ -6,7 +6,9 @@
 .verticalTimeline {
 	height: 800px;
 	width: 11px;
-	background-color: rgb(241, 0, 141);
+	background: rgb(106, 0, 255);
+	background: linear-gradient(180deg, #fd749b 1%, #281ac8 113%);
+
 	position: absolute;
 	left: 51%;
 	margin-top: 7%;
@@ -26,20 +28,17 @@
 	font-weight: 600;
 	color: #ff00ac;
 	width: 156px;
-	border: red 3px solid;
 }
 
 .textTimeline {
 	position: absolute;
 	text-align: right;
-
+	font-weight: 700;
 	margin-top: 74px;
-	font-weight: 500;
-	border: red 3px solid;
 }
 .itemTimelineWrapper {
 	position: absolute;
-	border: green 3px solid;
+
 	left: 339px;
 	margin-top: 127px;
 	height: 217px;
@@ -48,7 +47,7 @@
 
 .itemTimelineWrapperSecond {
 	position: absolute;
-	border: green 3px solid;
+
 	right: 301px;
 	margin-top: 421px;
 	height: 217px;
@@ -56,7 +55,7 @@
 }
 .itemTimelineWrapperThird {
 	position: absolute;
-	border: green 3px solid;
+
 	left: 339px;
 	margin-top: 681px;
 	height: 217px;
@@ -74,8 +73,23 @@
 .timeLinePoint {
 	width: 42px;
 	height: 11px;
-	background-color: rgb(241, 0, 141);
+	background: rgb(106, 0, 255);
+	background: linear-gradient(180deg, #fd749b 1%, #281ac8 113%);
 	border-radius: 20px;
 	position: absolute;
 	left: 50%;
+}
+.middleHistoryTitle {
+	text-align: center;
+	color: #e02acf;
+	background: rgb(106, 0, 255);
+	background: linear-gradient(180deg, #fd749b 1%, #281ac8 113%);
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bottomTextTimeline {
+	position: absolute;
+	font-weight: 600;
 }
