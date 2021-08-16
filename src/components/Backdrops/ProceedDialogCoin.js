@@ -29,28 +29,28 @@ const ProceedDialogCoin = (props) => {
 			DialogType = "COIN";
 			break;
 
-		case "AmazonCard":
+		case "amazon_card":
 			cardDesignTop = elipse_orange;
 			DialogType = "CARD";
 			index_card = 0;
 			break;
-		case "AppleStoreCard":
+		case "applestore_card":
 			cardDesignTop = elipse_blue;
 			DialogType = "CARD";
 			index_card = 1;
 			break;
-		case "GooglePlayCard":
+		case "googleplay_card":
 			cardDesignTop = elipse_green;
 			DialogType = "CARD";
 			index_card = 2;
 			break;
-		case "SteamCard":
+		case "steam_card":
 			DialogType = "CARD";
 			cardDesignTop = elipse_mov;
 			index_card = 3;
 			break;
 
-		case "OthersCard":
+		case "others_card":
 			DialogType = "CARD";
 			cardDesignTop = elipse_mov;
 			index_card = 4;

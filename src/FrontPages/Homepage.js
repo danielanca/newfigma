@@ -17,9 +17,6 @@ import GiftCardBoard from "../components/Backdrops/GiftCardBoard";
 const Homepage = () => {
 	return (
 		<Fragment>
-			{/* <BackDropBackground>
-				<GiftCardBoard />
-			</BackDropBackground> */}
 			<NavBar />
 			<HeroHeader
 				imageSrc={landingHeader}

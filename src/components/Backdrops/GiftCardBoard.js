@@ -1,11 +1,18 @@
+import { useState } from "react";
 import classes from "./Backdrops.module.css";
-import Button from "../Button/Button";
 import CardsImporter from "./CardsImporter";
+import ProceedDialogCoin from "./ProceedDialogCoin";
+import { useEffect } from "react";
 const GiftCardBoard = () => {
+	const [DialogSelected, setDialogSelected] = useState(null);
 	const CardGiftClickHandler = (card_number) => {
 		console.log("Card selected:" + card_number);
+		setDialogSelected(card_number);
 	};
-	return (
+	// useEffect(() => {
+	//
+	// }, [DialogSelected]);
+	return DialogSelected === null ? (
 		<div
 			className={classes.backgroundBackdrop + " " + classes.GiftCardInfo}
 		>
@@ -21,7 +28,7 @@ const GiftCardBoard = () => {
 					<a
 						onClick={CardGiftClickHandler.bind(
 							this,
-							cards.cardName
+							cards.code_card
 						)}
 					>
 						<img
@@ -32,6 +39,8 @@ const GiftCardBoard = () => {
 				))}
 			</div>
 		</div>
+	) : (
+		<ProceedDialogCoin Name={DialogSelected} outSum={"20"} />
 	);
 };
 export default GiftCardBoard;

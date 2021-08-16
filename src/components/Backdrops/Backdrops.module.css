@@ -11,6 +11,7 @@
 }
 .GiftCardInfo {
 	width: 880px;
+	z-index: 2;
 }
 
 .messageHead {
