@@ -6,6 +6,7 @@
 	padding-bottom: 42px;
 	top: 100px;
 	left: 200px;
+	z-index: 2;
 	position: absolute;
 	border-radius: 30px;
 }
@@ -150,4 +151,8 @@
 	font-size: 26px;
 	text-align: center;
 	margin-top: 15px;
+}
+.noscrolling {
+	overflow: hidden;
+	height: 100%;
 }

@@ -6,13 +6,14 @@
 
 .descriptionWrapper {
 	text-align: center;
-	border: 3px solid red;
+
 	width: 616px;
 	height: 270px;
 }
 
 .lineDesign {
 	height: 5px;
+	margin-left: 20px;
 	width: 78px;
 	background-color: #fd749b;
 	margin-top: 20px;

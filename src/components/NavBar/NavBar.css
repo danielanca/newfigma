@@ -5,18 +5,15 @@
 	margin-top: 32px;
 }
 .navC {
-	border: 4px solid blue;
 	width: 100%;
 	height: 128px;
 }
 
 .logostyle {
-	border: 4px solid green;
 	width: 30%;
 	height: 100%;
 }
 .itemWrapper {
-	border: 4px solid red;
 	width: 70%;
 	height: 100%;
 }

@@ -12,24 +12,16 @@ const NavLink_Items = (props) => {
 
 	return (
 		<ul className="navbar my-auto " style={{ listStyleType: "none" }}>
-			<NavLink_Custom
-				text="Home"
-				link="https://nomorecoffeeplease.com"
-				light_color="no"
-			/>
+			<NavLink_Custom text="Home" link="/home" light_color="no" />
 			<NavLink_Custom
 				text="Welcome"
 				link="https://nomorecoffeeplease.com"
 				light_color="yes"
 			/>
-			<NavLink_Custom
-				text="About US"
-				link="https://nomorecoffeeplease.com"
-				light_color="no"
-			/>
+			<NavLink_Custom text="About US" link="/about" light_color="no" />
 			<NavLink_Custom
 				text="Contact Us"
-				link="https://nomorecoffeeplease.com"
+				link="/contactus"
 				light_color="no"
 			/>
 			<NavLink_Custom

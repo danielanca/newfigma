@@ -11,10 +11,7 @@ const HeroHeader = (props) => {
 						<div className="row">
 							<div
 								className={
-									"col-sm-8 " +
-									classes.bordercolor +
-									" " +
-									classes.header_text_first
+									"col-sm-8 " + classes.header_text_first
 								}
 							>
 								{props.headerTitle}
@@ -25,8 +22,6 @@ const HeroHeader = (props) => {
 							<div
 								className={
 									"col-sm-8 " +
-									classes.bordercolor +
-									" " +
 									classes.header_text_description
 								}
 							>

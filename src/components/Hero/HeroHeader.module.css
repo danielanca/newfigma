@@ -16,14 +16,10 @@
 }
 
 .right_hero {
-	border: chartreuse 3px solid;
 	height: 469px;
 	width: auto;
 	margin-top: 63px;
 	margin-left: 65px;
-}
-.bordercolor {
-	border: 2px solid red;
 }
 
 .header_text_first {
