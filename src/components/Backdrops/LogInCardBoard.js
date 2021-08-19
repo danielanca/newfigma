@@ -34,7 +34,10 @@ const LogInCardBoard = () => {
 					<Button backgroundCol={"colored"} text={"Login"}></Button>
 				</div>
 				<div className={classes.signUpParagraph}>
-					<p>Don’t have an account yet? Sign Up</p>
+					<p>
+						Don’t have an account yet?{" "}
+						<a href={"/signup"}>Sign Up </a>{" "}
+					</p>
 				</div>
 			</div>
 		</div>
