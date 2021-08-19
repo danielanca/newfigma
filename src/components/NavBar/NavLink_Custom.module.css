@@ -19,6 +19,7 @@
 .textAlignma {
 	line-height: 51px;
 	color: black;
+	cursor: pointer;
 	font-weight: 800;
 	text-decoration: none;
 	font-family: "Poppins";
